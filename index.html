@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BROZ CORE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #fff;
+      border-bottom: 2px solid #000;
+    }
+    header h1 {
+      font-size: 24px;
+      font-weight: 900;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .auth-links a {
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+    }
+    /* Hero Section */
+    .hero {
+      display: flex;
+      min-height: 100vh;
+    }
+    .hero-left {
+      flex: 1;
+      background: #cbb3ff;
+      padding: 80px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero-left h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .hero-left h2 span {
+      color: #ffb84d;
+    }
+    .hero-left p {
+      max-width: 500px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+    .btn {
+      padding: 12px 20px;
+      font-weight: bold;
+      border: 2px solid #000;
+      cursor: pointer;
+    }
+    .btn.primary {
+      background: #ffeb99;
+    }
+    .btn.secondary {
+      background: #fff;
+    }
+    .hero-right {
+      flex: 1;
+      background: #ffe8a3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+    .hero-right img {
+      border-radius: 20px;
+      max-width: 80%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <h1>BROZ CORE</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="blog.html">Content</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="auth-links">
+      <a href="#">Log In</a>
+      <a href="#">Sign Up</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-left">
+      <h2><span>Boost</span> Your Social Media</h2>
+      <p>
+        Welcome to <strong>BROZ CORE</strong> 
+      </p>
+      <div class="buttons">
+        <button class="btn primary" onclick="window.location.href='https://www.instagram.com/broz_core'">Follow us on Instagram</button>
+        <button class="btn secondary"onclick="window.location.href='https://www.youtube.com/@brozcore002'">Youtube</button>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="your-image.png" alt="BROZ CORE Banner">
+    </div>
+  </section>
+</body>
+</html>
